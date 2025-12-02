@@ -1,13 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrivalTime", "ArrivalTime\ArrivalTime.csproj", "{87B6F1F3-DFFA-469F-BE3A-C14D074D5678}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLLs", "DLLs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
 		DLLs\QFlow.Library.dll = DLLs\QFlow.Library.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{D7AD4AA1-3D8F-42B8-8B1A-F970A8F7CF4A}"
+	ProjectSection(SolutionItems) = preProject
+		SQL\[cqf].[GetProcessArrivalTimes].sql = SQL\[cqf].[GetProcessArrivalTimes].sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CJS", "CJS", "{97E3D43A-DCD6-424E-BAF4-02383EA140A5}"
+	ProjectSection(SolutionItems) = preProject
+		CJS\ArrivalTime.js = CJS\ArrivalTime.js
 	EndProjectSection
 EndProject
 Global
